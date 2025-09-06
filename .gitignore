@@ -1,5 +1,8 @@
 # Ignore object files
 *.o
 
+# compilation listings
+*.l
+
 # Ignore the iNES ROM files
 *.nes
