@@ -1,5 +1,5 @@
 @echo Compiling...
-ca65 main.s -o main.o
+ca65 -g main.s -o main.o -l main.l
 
 @if ERRORLEVEL 1  (
     @echo Compilation failed!
